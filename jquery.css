@@ -1,0 +1,37 @@
+header{
+	margin: 0 auto;
+	width: 500px;
+	height: 800px;
+	background: silver;
+	padding-top: 25px;
+}
+article{
+	width: 450px;
+	height: 100px;
+	background: grey;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	
+}
+button{
+	width: 80px;
+	height: 20px;
+	margin: 42px 0 0 10px;
+	vertical-align: top;
+	border-radius: 10px;
+
+
+}
+.box{
+	display: inline-block;
+	margin-left: 20px;
+}
+h1{
+	display: inline-block;
+	margin: 0;
+	vertical-align: top;
+	margin-left: 90px;
+}
+#show{
+	display: none;
+}

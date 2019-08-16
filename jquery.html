@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="jquery.css">
+
+
+
+
+
+</head>
+<body>
+	<header>
+		<article>
+			<button id="button1" type="button">click</button>
+			<div class="box">
+				<h1>Hide this</h1>
+				<p id="hide">Click the button hide paragraph</p>
+			</div>
+		</article>
+		
+		<article>
+			<button id ="button2" type="button">click</button>
+			<div class="box">
+			<h1>Show</h1>
+			<p id="show">You found me. Here I am!</p>
+			</div>
+		</article>
+		
+		<article>
+			<button id="button3" type="button">click</button>
+			<div class="box">
+			<h1 >toggle</h1>
+			<p id="toggle">click the button to toggle paragraph!</p>
+			</div>
+		</article>
+
+		<article>
+			<button id="button4" type="button">click</button>
+			<div class="box">
+			<h1 >slideDown</h1>
+			<p id="slide" >click the button to slideDown</p>
+			</div>
+		</article>
+
+		<article>
+			<button id="button5" type="button">click</button>
+			<div class="box">
+			<h1 >slideToggle</h1>
+			<p id="slideToggle" >click the butto to slideToggle</p>
+			</div>
+		</article>
+		
+		
+	</header>
+
+
+<script> 
+
+
+	$( "#button1" ).click(function() {
+  		console.log("Clicked");
+  		$("#hide").hide();
+   	});
+
+	$( "#button2" ).click(function() {
+  		console.log("Clicked");
+  		
+  		$("#show").show();
+		
+   	});
+   	$( "#button3" ).click(function() {
+  		console.log("Clicked");
+  		
+  		$( "#toggle" ).toggle();
+		
+   	});
+   	$( "#button4" ).click(function() {
+  		console.log("Clicked");
+  		
+  		$("#slide").slideUp();
+		
+   	});
+   	$( "#button5" ).click(function() {
+  		console.log("Clicked");
+  		
+  		$("#slideToggle").slideToggle();
+		
+   	});
+   	
+   	
+
+
+// 		$( "p" ).click(function() {
+//   $( this ).slideUp();
+// });
+// 		$( "h1" ).hide();
+// 		$("h1").show();
+
+
+	// $( 'h1' ).click(function() {
+ //  alert( "Handler for .click() called." );
+	// });
+
+
+	
+</script>
+  
+
+
+
+
+</body>
+
+</html>  
